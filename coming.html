@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AOM-coming soon</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <header>
+        <!-- <a href="#" class="logo">AOM<span>.</span></a> -->
+        <img class="logo" src="./img/monkey king trans.png">
+        <div class="menuToggle" onclick="toggleMenu();"></div>
+        <ul class="navigation">
+            <li><a href="/">HOME</a></li>
+            <li><a href="/coming.html">ABOUT US</a></li>
+            <li><a href="/coming.html">MARKETPLACE</a></li>
+            <li><a href="/coming.html">GET NFT'S</a></li>
+            <li><a href="/coming.html">CONTACT US</a></li>
+        </ul>
+    </header>
+    <section class="banner" style="z-index: 10;">
+    <div class="comhad">
+        <div>
+            <div class="linecontent1" style="z-index: 10;">
+                <h1>comming soon ...</h1>
+                <!-- <img src="./img/aom 4k.png"> -->
+            </div>
+    </div>
+        
+    </div>
+</section>
+    <canvas class="webgl"></canvas>
+    <script>
+        // window.addEventListener('scroll', function() {
+        //     const header = this.document.querySelector('header');
+        //     header.classList.toggle("sticky", this.window.scrollY > 0)
+        // })
+
+        function toggleMenu() {
+            const menuToggle = document.querySelector('.menuToggle');
+            const navigation = document.querySelector('.navigation');
+            menuToggle.classList.toggle('active');
+            navigation.classList.toggle('active');
+        }
+
+        // function toggleBlur() {
+        //     var blur = document.querySelector('.container');
+        //     blur.classList.toggle('bluractive');
+        //     var artwork1 = document.querySelector('.artwork1');
+        //     artwork1.classList.toggle('bluractive');
+        // }
+    </script>
+    <script type="module" src="./raycast.js"></script>
+    
+</body>
+</html>
